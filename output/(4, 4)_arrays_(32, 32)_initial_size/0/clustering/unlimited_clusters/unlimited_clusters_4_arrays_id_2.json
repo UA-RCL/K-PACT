@@ -1,0 +1,120 @@
+{
+  "0": [
+    "energy_detect1_0",
+    "Kurtosis_0"
+  ],
+  "1": [
+    "energy_detect1_0",
+    "Kurtosis_0"
+  ],
+  "2": [
+    "energy_detect1_0",
+    "Kurtosis_0"
+  ],
+  "3": [
+    "energy_detect1_0",
+    "Kurtosis_0"
+  ],
+  "4": [
+    "energy_detect1_0",
+    "Kurtosis_0"
+  ],
+  "5": [
+    "energy_detect1_0",
+    "Kurtosis_0"
+  ],
+  "6": [
+    "energy_detect1_0",
+    "Kurtosis_0"
+  ],
+  "7": [
+    "energy_detect1_0",
+    "Kurtosis_0"
+  ],
+  "8": [
+    "energy_detect1_0",
+    "Kurtosis_0"
+  ],
+  "9": [
+    "energy_detect1_0",
+    "Kurtosis_0"
+  ],
+  "10": [
+    "energy_detect1_0",
+    "Kurtosis_0"
+  ],
+  "11": [
+    "CPDet_0",
+    "energy_detect1_0",
+    "ChirpDet_0",
+    "FSK_Det_0",
+    "CPDet_1",
+    "Cumulant63_0"
+  ],
+  "12": [
+    "CPDet_0",
+    "ChirpDet_0",
+    "energy_detect1_0",
+    "FSK_Det_0",
+    "CPDet_1",
+    "Cumulant63_0"
+  ],
+  "13": [
+    "Cumulant42_0",
+    "energy_detect1_0",
+    "CREst_0",
+    "AEP_bf_0"
+  ],
+  "14": [
+    "ChirpDet_0",
+    "CPDet_0",
+    "energy_detect1_0",
+    "FSK_Det_0",
+    "CPDet_1",
+    "Cumulant63_0",
+    "BPSK_Det_0"
+  ],
+  "15": [
+    "AEP_det_0",
+    "energy_detect1_0"
+  ],
+  "16": [
+    "AEP_det_0",
+    "energy_detect1_0",
+    "CPDet_1"
+  ],
+  "17": [
+    "Cumulant42_0",
+    "energy_detect1_0",
+    "CREst_0"
+  ],
+  "18": [
+    "AEP_det_0"
+  ],
+  "19": [
+    "AEP_det_0"
+  ],
+  "20": [
+    "CPDet_0",
+    "ChirpDet_0",
+    "Cumulant63_0",
+    "FSK_Det_0",
+    "CPDet_1",
+    "BPSK_Det_0"
+  ],
+  "21": [
+    "AEP_det_0",
+    "CPDet_1"
+  ],
+  "22": [
+    "CPDet_0",
+    "ChirpDet_0",
+    "Cumulant63_0"
+  ],
+  "23": [
+    "AEP_det_0"
+  ],
+  "24": [
+    "AEP_det_0"
+  ]
+}

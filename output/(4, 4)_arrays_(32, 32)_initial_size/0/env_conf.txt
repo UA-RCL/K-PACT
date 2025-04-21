@@ -1,0 +1,10 @@
+Array count: (4, 4)
+Timing information collection performed with an array of size: (32, 32)
+Number of unique trees: 15
+Number of active subbands: 48
+Sweeping 32 IMEM lines
+Homogeneity type: Homogeneous
+ED+Kurtosis clustering mode: Enabled
+Parallelization: Disabled
+Number of workers:1
+Output directory:output
