@@ -22,7 +22,6 @@ def place_kernel(kernel_name, kernel_shape, grid, grid_height=None, grid_width=N
     """
     kernel_height, kernel_width = kernel_shape
 
-    # Very very bad way to handle this. Need to fix this.
     current_height = len(grid)
     for row in range(current_height):
         for col in range(grid_width):

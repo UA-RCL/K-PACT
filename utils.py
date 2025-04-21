@@ -7,7 +7,7 @@ import os
 import common as common
 from data_structures import *
 
-personality_key_list = {    "Kurtosis_0"        : ["Kurtosis1_b1", "Kurtosis2_b1"], 
+kernel_key_list = {    "Kurtosis_0"        : ["Kurtosis1_b1", "Kurtosis2_b1"], 
                             "AEP_det_0"         : ["AEPDet_b1"], 
                             "AEP_bf_0"          : ["AEPbf_b1"], 
                             "CPDet_0"           : ["CPDet1_b1"], 
@@ -53,7 +53,6 @@ def custom_key(item):
     elif isinstance(item[0], list):
         return int(item[0][0])
 
-# Generalize this!!!
 def process_timing_data(personality_dict, array_count=None):
 
     copy_timing_data = copy.deepcopy(common.timing_data.data)
@@ -62,10 +61,10 @@ def process_timing_data(personality_dict, array_count=None):
 
     for array_id in range(array_count):
         new_timing_data[array_id] = {}
-        for key, value in personality_key_list.items():
+        for key, value in kernel_key_list.items():
             new_timing_data[array_id][key] = []
 
-    for new_timing_data_key, new_timing_data_value in personality_key_list.items():
+    for new_timing_data_key, new_timing_data_value in kernel_key_list.items():
         for keys_to_search in new_timing_data_value:
             if keys_to_search in copy_timing_data.keys():
                 for timing_item in common.timing_data.data[keys_to_search]:
