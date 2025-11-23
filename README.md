@@ -1,6 +1,6 @@
 # K-PACT: Kernel Planning for Adaptive Context Switching — A Framework for Clustering, Placement, and Prefetching in Spectrum Sensing
 
-- This repository contains the official implementation of ***K-PACT: Kernel Planning for Adaptive Context Switching — A Framework for Clustering, Placement, and Prefetching in Spectrum Sensing*** accepted for publication in ICCAD25.
+- This repository contains the official implementation of ***K-PACT: Kernel Planning for Adaptive Context Switching — A Framework for Clustering, Placement, and Prefetching in Spectrum Sensing*** , which is published in ICCAD25. The paper is available in [IEEExplore](https://ieeexplore.ieee.org/document/11240855).
 
 ## Code Structure
 
@@ -51,3 +51,21 @@ python3 main.py -h
 --number_of_workers     : number of threads if parallelization is enabled
 --output_dir            : directory to store output files
 </pre>
+
+## Citation
+
+If used for research, please cite K-PACT by the following publication:
+
+```
+@INPROCEEDINGS{11240855,
+  author={Suluhan, H. Umut and Lin, Jiahao and Gener, Serhan and Chakrabarti, Chaitali and Ogras, Umit and Akoglu, Ali},
+  booktitle={2025 IEEE/ACM International Conference On Computer Aided Design (ICCAD)}, 
+  title={K-PACT: Kernel Planning for Adaptive Context Switching — A Framework for Clustering, Placement, and Prefetching in Spectrum Sensing}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-9},
+  keywords={Context;Runtime;Heuristic algorithms;Switches;Software;Hardware;Sensors;Planning;Kernel;Low latency communication;systolic array;clustering;placement;dynamic switching},
+  doi={10.1109/ICCAD66269.2025.11240855}}
+
+```
